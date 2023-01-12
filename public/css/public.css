@@ -1,0 +1,55 @@
+#hlgf-form-container{
+    max-width: 600px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    font-size: 14px;
+    line-height: 20px;;
+}
+
+#hlgf-form-container .hlgf-form-input{
+    margin-bottom: 20px;
+}
+
+#hlgf-form-container .hlgf-form-input label{
+    display: block;
+    margin-bottom: 5px;
+}
+
+#hlgf-form-container .hlgf-form-input label abbr{
+    color: red;
+}
+
+#hlgf-form-container .hlgf-form-input textarea,
+#hlgf-form-container .hlgf-form-input input[type="text"],
+#hlgf-form-container .hlgf-form-input input[type="email"],
+#hlgf-form-container .hlgf-form-input input[type="number"]{
+    padding: 10px;
+    border: 1px solid #ccc;
+    width: calc(100% - 20px);
+    border-radius: 5px;;
+}
+
+#hlgf-form-container .hlgf-form-input .error{
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+#hlgf-form-container .hlgf-form-input button {
+    background-color: #000;
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    transition: all 0.2s;
+    -webkit-transition: all 0.2s;
+}
+
+#hlgf-form-container .hlgf-form-input button:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}

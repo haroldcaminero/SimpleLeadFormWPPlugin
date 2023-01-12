@@ -1,0 +1,51 @@
+.hlgf-box {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    margin-right: 20px;
+}
+
+.hlgf-box h3 {
+    margin-top: 0px;
+}
+
+.hlgf-box h4 {
+    font-weight: bold;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+.hlgf-box label {
+    width: 150px;
+    display: inline-block;
+}
+
+.hlgf-box input[type="text"],
+.hlgf-box textarea{
+    width: 200px;
+}
+
+.hlgf-box input[type="number"] {
+    width: 100px;
+    text-align: center;
+}
+
+.hlgf-box .hlgf-input{
+    margin-bottom: 10px;
+}
+
+.hlgf-box .hlgf-container {
+    display: flex;
+    gap: 20px;
+}
+
+.hlgf-box .hlgf-container > div {
+    flex: 1;
+}
+
+#hlgf-shortcode {
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+}
